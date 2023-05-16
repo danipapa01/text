@@ -1,0 +1,2005 @@
+School of Physics and Astronomy, April 2022                                                    1
+
+
+
+
+             OUTLINE OF GENERAL PHYSICS
+
+                Mike Birse, Judith McGovern and Niels Walet
+                    (from an original by Graham Shaw)
+
+
+
+
+Introduction
+
+An “outline” usually comprises a summary of important results, worked examples and
+some problems. Each section of this outline of general physics is devoted to a particular
+area of physics. Each section contains a few formulae which every physicist should know.
+These are intended as reminders only; the symbols are not defined but have their usual
+meanings. Then there is a set of questions chosen to cover the topics, taken from past
+third-year general papers. Where the answer can be given without revealing how to do
+the problem, then it is given.
+
+
+
+-
+There will be nine general-paper workshops in semester 6, from week 2 through week
+10, each covering one section. You should try as many questions as possible from>
+                                                                                the
+relevant section before each workshop.
+
+
+
+
+#
+                                                       -
+The questions marked with * are the minimum that you should expect to cover for the
+workshops, and these must be attempted in advance.
+
+
+
+
+-
+The 2019 third-year general paper is included, as section 9. =You should attempt this
+in full before the ninth and last workshop, in week ten. Also included are the Table of
+Physical Constants and Conversion Factors, which is issued with all physics examination
+papers, and a section on the “Mathematical Formulae You Should Know”.
+
+
+
+
+&
+General physics exam papers for each of the last ten years are available on or through the
+teaching web, https://www.teaching.physics.manchester.ac.uk/.
+
+
+
+
+                                                                              Updated 2/2/23
+                                                                              M.Hughes
+Contents
+
+
+1   MECHANICS and VIBRATIONS                                                                      3
+
+    1.1   Selected problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     4
+
+
+2   DIMENSIONS, ASTRONOMY and DATA ANALYSIS                                                       7
+
+    2.1   Selected problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     8
+
+
+3   RELATIVITY, NUCLEAR AND PARTICLE PHYSICS                                                     10
+
+    3.1   Selected problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    11
+
+
+4   QUANTUM MECHANICS AND ATOMIC PHYSICS                                                         13
+
+    4.1   Selected problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    14
+
+
+5   GASES, LIQUIDS and SOLIDS                                                                    17
+
+    5.1   Selected problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    18
+
+
+6 THERMAL AND STATISTICAL PHYSICS                                                                20
+
+    6.1   Selected problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    21
+
+
+7   ELECTRICITY AND MAGNETISM                                                                    23
+
+    7.1   Selected problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    24
+
+
+8 WAVES AND OPTICS                                                                               27
+
+    8.1   Selected problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    28
+
+
+9 Exam from 2019                                                                                 30
+
+    Physical constants . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   36
+
+    Bottomline answers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     37
+
+
+Mathematics                                                                                      38
+
+
+                                                 2
+1     MECHANICS and VIBRATIONS
+
+Newton’s Laws
+
+Difficulties in this area rarely arise from not knowing Newton’s laws:
+
+    1. Every object in a state of uniform motion tends to remain in that state of motion
+       unless an external force is applied to it;
+                                                                                    dp
+    2. The rate of change of momentum equals the total force on an object, F = dt (
+       F = ma for constant mass);
+    3. For every action there is an equal and opposite reaction.
+
+Many problems can be solved quickly and easily by applying conservation of mechan-
+ical energy (true when the forces are conservative) and in many cases conservation of
+momentum (true when there are no external forces).
+
+Newton’s Laws for Rotation
+
+We often use the equivalent of Newton’s second law for rigid-body rotation. With
+                                                                         L2  1
+            L = Iw    ,         I = Â mi ri2 ,                    EL =      = I w2   ,
+                                       i
+                                                                         2I  2
+
+we have Newton’s second law for torque
+                               T = dL/dt = I dw/dt .
+Note that these equations are easy to remember. Apart from the one defining the moment
+of inertia, they are analogous to the ones for linear motion, with the substitutions:
+                  m!I      ,    v!w         ,        p!L      ,       F!T      .
+Most of the time we shall only consider rotation around an axis of fixed direction, which
+can be treated as one-dimensional. In that case we drop the vector notation above.
+
+Damped Oscillators
+
+The Equation of motion for a forced, damped simple harmonic oscillator is
+                                 ẍ + g ẋ + w02 x = F/m      .
+For sinusoidal driving force F (t) = F0 cos wt the amplitude is:
+                                                  F0 /m
+                          A(w ) =                                        .
+                                    [(w02        2
+                                                w )2 + (gw )2 ]1/2
+Critical damping occurs when g = 2w0 . The full width of power curve at half maximum
+equals g, and the Q-value is Q = w0 /g.
+The amplitude of the oscillations in the absence of forcing is
+                                A(t) = A0 exp( gt/2)              .
+
+                                                 3
+Damped Oscillators
+
+The Equation of motion for a forced, damped simple harmonic oscillator is
+
+                                  ẍ + g ẋ + w02 x = F/m   .
+
+For sinusoidal driving force F (t) = F0 cos wt the amplitude is:
+
+                                               F0 /m
+                           A(w ) =                                  .
+                                     [(w02    2
+                                             w )2 + (gw )2 ]1/2
+
+Critical damping occurs when g = 2w0 . The full width of power curve at half maximum
+equals g, and the Q-value is Q = w0 /g.
+The amplitude of the oscillations in the absence of forcing is
+
+                                 A(t) = A0 exp( gt/2)           .
+
+
+1.1 Selected problems
+
+  1. In June 1960, a car on the M1 managed to skid 290 meters before coming to rest. It
+     produced the longest recorded skid marks on a public road. Assume that the wheels
+     were locked and assume a coefficient of kinetic friction between the road and the
+     wheel of µ = 0.8. Calculate the initial velocity of the car in km/h.
+     Answer: 243 km/h
+
+  2. * A bullet travelling horizontally strikes a large block of wood, suspended by thin
+     wires, and remains stuck in it. The impact causes the block to swing upward to a
+     height of 20 cm. If the bullet has a mass of 10 g and the block’s mass is 4 kg, what
+     was the speed of the bullet immediately before impact?
+     Answer: 793 m s 1
+
+  3. A projectile explodes into two pieces at the top of its trajectory, a distance L measured
+     horizontally from its launch point. The two resulting fragments have masses 14 and
+     3
+     4 of the original mass and emerge horizontally from the explosion with the small
+     fragment landing back at the original launch point. How far from the original
+     launch point does the larger fragment land?
+     Answer: 8L/3
+
+  4. A piece of space debris, initially at rest, falls radially towards the Moon. It is initially
+     at twice the Moon’s radius from the centre of the Moon. Calculate the velocity of
+     the debris when it hits the Moon’s surface.
+     The mass and radius of the Moon are 7.35 ⇥ 1022 kg and 1.74 ⇥ 106 m respectively.
+     Answer: 1.68 ⇥ 103 m s 1
+
+  5. Gravity Probe B has just been launched into a circular orbit round the Earth at a
+     height of 650 km. Calculate the time it takes to complete one orbit.
+     Answer: 5900 s
+
+
+                                               4
+ 6. An intrepid Australian digs a hole through the centre of the Earth from Queensland
+    to Spain and then drops a small object of mass m down the hole. Assuming that the
+    Earth is of uniform density, calculate the gravitational force acting on the mass at a
+    distance R from the centre of the Earth. Describe the motion of the mass.
+    Answer: GmRME /R3E , where ME and RE are mass and radius of the Earth.
+
+ 7. * A stone is tied to a string of length l. Someone whirls this stone in a vertical circle.
+    Assume that the energy of the stone remains constant as it moves around the circle.
+    Calculate the minimum speed the stone must have at the bottom of the circle, if the
+              to remain taut at the top of the circle.
+    string is p
+    Answer: 5gl
+
+ 8. A neutron star has a moment of inertia of 1038 kg m2 and has a rotation period of
+    2 milliseconds. The period is increasing by 10 13 sec/sec. What is the rate of loss of
+    kinetic energy?
+    Answer: (p 2 /2) 1034 J s 1
+
+ 9. * A massless rope is wrapped several times around a solid cylinder of radius R = 20
+    cm and mass M = 20 kg, which is at rest on a horizontal surface, as shown below.
+
+
+
+
+    Someone pulls 1 m of the rope from the cylinder with a constant force of 100 N,
+    setting the cylinder in motion. Assuming that the rope neither stretches nor slips
+    and that the cylinder rolls without slipping, what is the final speed and angular
+    velocity of the cylinder?
+    The moment of inertia of a cylinder of mass M and radius R is MR2 /2.
+    Answer: w = 18.3 rad/s, v = 3.65 m s 1
+
+10. A bowling ball is rolling without slipping up an inclined plane. As it passes a point
+    O it has a speed of 2.00 ms 1 up the plane. It reaches a vertical height h above O
+    before momentarily stopping and rolling back down. Determine the value of h.
+    If a hollow ball, composed only of a thin shell, underwent similar motion also
+    moving at a speed of 2.00 ms 1 at O, would the height it reached be less than, equal
+    to, or greater than that of the solid bowling ball? Give reasons for your answer.
+    The moment of inertia of a solid sphere of mass M and radius R is I = 2MR2 /5.
+    Answer: h = 0.29 m
+
+11. * A ball of mass m1 strikes a stationary ball of mass m2 with velocity v1 . What is the
+    maximum velocity which the second ball could acquire?
+    Answer: 2 m1 v1 /(m1 + m2 )
+
+
+                                             5
+12. A spring with spring constant k = 120 Nm 1 is cut into two pieces, one twice as
+    long as the other. What are the spring constants of the two pieces?
+    Answer: 360 and 180 Nm 1
+13. * A vertical U-tube of uniform cross section open at both ends contains a liquid
+    which fills in total a length l of the tube. Calculate the period of oscillations of the
+    liquid, if the liquid in one of the arms of the U-tube is pushed down a small distance
+    and then released.
+                 p
+    Answer: 2p l/2g
+14. * The figure below shows the response of a forced oscillator as a function of driving
+    frequency. Estimate the decay time for the amplitude of free oscillations.
+    Answer: 1.3 s
+
+
+
+
+15. A piece of thin copper rod, mass m, is formed into a square of side length l, and
+    suspended vertically on a wire of torsional constant k. The moment of inertia of the
+    square for rotations about the vertical axis is ml 2 /6. Find the period of rotational
+    oscillations.   q
+                         2
+    Answer: T = 2p ml  6k .
+
+16. The side of a thin disk of mass m and radius r, pivoted at its centre, is attached to
+    the end of an unstretched spring of force constant k, as shown in the diagram below.
+    The disk is rotated
+                  p     slightly and released. Calculate the period of small oscillations.
+    Answer: w = 2k/M
+
+
+
+
+                                            6
+2    DIMENSIONS, ASTRONOMY and DATA ANALYSIS
+
+The method of dimensions
+
+All equations in physics must be dimensionally consistent (i.e. both sides must have the
+same units). It is sometimes possible to deduce an approximate formula, usually up to
+a multiplicative constant, by combining the relevant quantities in such a way as to get
+the right units. This can be used in practice by assuming that a physical quantity Z that
+depends on a number of other quantities A, B, C, . . . must obey a power law to make the
+dimensions on the left and right-hand sides be equal. We thus set Z = cAa B b C g . . ., with
+c a dimensionless constant. We solve by equating the powers on the basic units on left-
+and right-hand sides (usually length, time and mass are sufficient; occasionally we need
+to consider temperature and current; the candela is not usually required). If there is one
+unique set of powers a, b, g etc. that satisfy the equality of dimensions, then we have
+determined a suitable functional form of Z. The method fails to provide a unique solution
+                                                   0   0   0
+if there is a dimensionless quantity of the form Aa B b C g . . ..
+
+Note that temperature usually enters into physical quantities as kT or equivalently RT,
+which both have the dimensions of energy. The SI units of viscosity are kg m 1 s 1 .
+Surface tension may be considered as force per unit length or energy per unit area, and
+has units of kg s 2 .
+
+Introductory Astronomy
+
+Kepler’s third law: T 2 = kR3 (k = 1 if T is in years and R is in astronomical units).
+
+Blackbody radiation: P = sT 4 is power emitted per unit area. (Stefan’s law)
+
+Difference in magnitude: Dm = 2.5 log10 R, where R is the brightness ratio.
+
+Non-relativistic Doppler shift: Dl/l = v/c.
+
+Reduced mass for a 2-body system: µ = m1 m2 /(m1 + m2 ).
+
+Orbit around common centre of mass: m1 R1 = m2 R2 .
+
+
+Data Analysis for Laboratory
+
+If f = f ( x, y, z, . . .) and x, y, z, . . . represent uncorrelated measurements then
+                                ✓ ◆2              ✓ ◆2        ✓ ◆2
+                            2      ∂f          2    ∂f     2    ∂f
+                           sf =             sx +         sy +         sz2 + . . . .
+                                   ∂x               ∂y           ∂z
+Special cases:
+
+If f = x ± y then s2f = sx2 + sy2 ;
+                          ⇣ s ⌘2                        ⇣ ⌘2
+                                          sx 2           sy
+If f = x m y   n   then     f
+                            f      = m2   x      + n2    y     .
+
+                                                         7
+For a set of measurements xi each with the same error s, the best estimate of the true
+value is the mean
+                                         1
+                                    x = Â xi .
+                                         n
+The error on the mean is
+                                            s
+                                     sx = p      .
+                                             n
+The distribution of the measured values xi has variance:
+                                                 1
+                                          s2 =              x̄ )2
+                                                 nÂ i
+                                                   (x               ,
+      r
+              n
+and                   ⇥ s is the best estimate of s, the error on each measurement.
+          n       1
+The Binomial distribution gives the probability of n “successes” in N trials:
+                                                                     N!
+                                  P(n, N ) = pn (1   p) N   n
+                                                                            ,
+                                                                n!( N n)!
+where p is the probability of success in one trial.
+
+Without further information,
+                   p         the best estimate of the standard deviation in a discrete set
+of n counts is sn = n.
+
+
+2.1 Selected problems
+
+   1. * By dimensional arguments show that the speed of waves on a deep body of liquid
+      is independent of the liquid density if the waves are long enough to be controlled
+      by gravity, but not if they are so short as to be controlled by surface tension.
+   2. After being deformed, a spherical drop of an incompressible liquid will execute
+      periodic vibrations. Use the method of dimensions to obtain an expression for the
+      frequency of these vibrations in terms of the physical properties of the drop.
+   3. * In 1947 G.I. Taylor estimated the energy of an atomic bomb explosion using the
+      method of dimensions applied to a set of photographs that showed the propagation
+      of the shockwave. Relate the energy released to the radius of the shockwave, the
+      density of air and the time elapsed since the explosion. At t = 0.006 s the radius
+      of the shockwave was approximately 80 m. Estimate the energy released in the
+      explosion assuming the density of air as 1.2 kg m 3 .
+      Answer: 1014 J
+   4. A violin string of length l and mass per unit length µ is vibrating with amplitude
+      A under a tension T. In the case where the frequency is independent of A, use the
+      method of dimensions to show how frequency depends on these parameters.
+   5. Not suitable for some joint honours programmes.
+      Draw a Hertzsprung-Russell diagram, clearly labelling the axes. Show the main
+      sequence and the regions where red giants, blue super-giants and white dwarfs are
+      located.
+
+                                                     8
+ 6. Not suitable for some joint honours programmes.
+    A galaxy imaged by the Hubble telescope consists of a large central bulge and a
+    thin disk. Ignoring the gravitational effect of the disk, we can model the bulge as a
+    sphere of uniform density r and radius R. Find expressions for, and make a sketch
+    of, the velocity v(r ) of a star in a circular orbit of radius r about the galactic centre,
+    considering both the cases 0 < r < R and r > R. Measurements show that v(r ) is
+    roughly constant beyond r > R; comment on this finding.
+ 7. * Not suitable for some joint honours programmes.
+    A type-II Cepheid variable star is observed in a distant galaxy. It has a period of
+    100 days and a peak brightness 10 magnitudes less than the brightness of a 100-day
+    period, type-II Cepheid variable observed in the Large Magellanic Cloud (LMC).
+    Given that the LMC lies at a distance of 150,000 light years from our Sun, calculate
+    the distance to the distant galaxy.
+    Answer: 1.5 ⇥ 107 light years
+ 8. Venus orbits the Sun every 224.7 days. Assuming that the orbits of the Earth and
+    Venus are both circular, calculate the round-trip travel time of a radar pulse reflected
+    from Venus at the time of the Venus transit of the Sun in June 2004.
+    Answer: 275 s
+ 9. Not suitable for some joint honours programmes.
+    The black hole remnant of a star has a mass of 12 Solar Masses. Calculate its
+    Schwarzschild radius.
+    Answer: 36 km
+10. Not suitable for some joint honours programmes.
+    The radial velocity of a 1 solar mass star is seen to vary sinusoidally by ±45 m s 1
+    with a period of 1095 days. Assuming that the Earth lies in the plane of the orbit of
+    the object causing this stellar motion, calculate the object’s mass in solar masses and
+    its distance from the star in astronomical units (AU).
+    Answer: 2 ⇥ 10 3 solar masses and 2.1 AU
+11. * A surveyor measures the angle of elevation of a mountain top from the horizontal
+    to be 22.2 ± 0.1 and the direct distance to the top of the mountain to be 1536 ± 3 m.
+    Calculate the vertical height of the mountain above the surveyor, and the error in
+    that height.
+    Answer: 580.4 ± 2.7 m
+12. * Two experimental methods, each free from systematic errors, were used to measure
+    the height, h, of a building. The mean values obtained were h A = (71 ± 4) m from
+    64 measurements using method A and h B = (68 ± 6) m from 16 measurements
+    using method B. Show which method has the higher precision. How many extra
+    readings must be taken using method B to ensure that the final results for h A and
+    h B have the same precision?
+    Answer: 20
+13. I suspect that a coin is biased, turning up heads on 45 percent of tosses. How many
+    trials would I need to confirm with reasonable certainty that it is biased?
+    Answer: Of order 1000.
+
+
+                                             9
+3    RELATIVITY, NUCLEAR AND PARTICLE PHYSICS
+
+The trickiest bit is remembering the factors of c, so always check them by dimensions,
+remembering that E, pc, and mc2 all have dimensions of energy.
+
+Lorentz Transformation
+
+                    x0 =g ( x        vt)    ,
+                                                                                                        1
+                    y0 =y      ,                                     where g ⌘
+                                                                                               (1   v2 /c2 )1/2
+                     0
+                    z =z       ,
+                    t0 =g (t         vx/c2 )    .
+
+Time dilation and Lorentz contraction:
+
+                                           t = gt0      ,           L = L0 /g          .
+
+Velocity addition
+                                   ux v
+                         u0x =                ,
+                                 1 u x v/c2
+                                      uy
+                         u0y   =                                ,        and similarly for uz .
+                                 g(1 u x v/c2 )
+Energy and momentum
+                                           E = gmc2         ,        p = gmv               ,
+      implying
+                         E2 = ( pc)2 + (mc2 )2                   and             g = E/(mc2 )               .
+      By definition the kinetic energy is E mc2 .
+Invariant mass: a Lorentz invariant, which is conserved in collisions and decays
+                                                ✓           ◆2       ✓            ◆2
+                                           2
+                                        W =         Â Ei                 Â pi c                .
+                                                    i                    i
+
+Exponential decay law
+                                   N ( t ) = N (0) e    t/t
+                                                                = N (0) (1/2)t/t1/2                 ,
+     where t is the “lifetime” ( i.e. mean lifetime) and t1/2 = t ln 2 is the half-life.
+Photons and other massless particles
+
+                                                E = pc = hc/l                .
+
+Compton Scattering:
+                                             hc
+                                           l0 = l +
+                                                (1 cos q ) .
+                                            mc2
+Particles You should be familiar with the quantum numbers, quark content (where ap-
+      propriate) and reactions (strong, EM, weak) of the following particles: p, n, L, S, W,
+      pions, kaons, e, µ, t and neutrinos.
+
+                                                        10
+3.1 Selected problems
+
+ 1. A rocket is launched at a speed of 0.5c from the earth. After one year measured by a
+    timing mechanism in the rocket a signal is sent back to earth. How long after the
+    launch ispthe signal received?
+    Answer: 3 years
+
+ 2. The total annual energy usage in the UK is about E = 1019 J. Assume that this energy
+    is all used to accelarate a small spacecraft with mass of m = 250 kg. What would
+    the final velocity of the spacecraft be?
+    Answer: 0.7 c
+
+ 3. * A beam of kaons is aimed at a target 10 m away. If the kaons have a momentum
+    of 5 GeV/c, calculate the fraction of them that reach the target without decaying.
+    (Kaon mean lifetime = 1.2 ⇥ 10 8 s: kaon rest mass = 500 MeV/c2 )
+    Answer: 0.76
+
+ 4. A radioactive source of half-life 1 year is found to emit 106 particles per second. It is
+    then sent by rocket at a speed of 0.6c on a round trip to a manned space station; it
+    arrives back exactly one year later. What is the disintegration rate when it arrives
+    back?
+    Answer: 5.7 ⇥ 105 s 1
+
+ 5. * Two protons, each with kinetic energy of 1 GeV, are made to collide head-on.
+    Calculate their relative velocity before collision.
+    Answer: 0.991c
+
+ 6. A spaceship moving away from Earth at a speed of 0.9c collides with a 1 g piece of
+    space debris moving at a speed 0.3c towards Earth. Find the kinetic energy of the
+    debris in the rest frame of the ship.
+    Answer: 1.85 ⇥ 1014 J
+
+ 7. * A photon and a particle of mass 10 eV/c2 are produced simultaneously in a galaxy
+    150,000 light years away. Both particles have energy 10 MeV. Estimate the difference
+    in arrival time between the two particles.
+    Answer: 2.4 s
+
+ 8. A relativistic train has a length of 100 m in its rest frame. When its passes through a
+    station with a platform 80 m long, passengers waiting on the platform observe that,
+    in their frame, both ends of the train pass the ends of the platform at the same time.
+    How fast is the train moving? Now consider these events from the point of view of
+    the passengers on the train. Compared to the time at which the front of the train
+    passes the far end of the platform, how much earlier or later does the rear of the
+    train pass the near end of the platform?
+    Answer: 0.6 c, 2 ⇥ 10 7 s
+
+ 9. A 1.022 MeV photon is Compton scattered through 90 by an electron and emerges
+    with an energy of 0.341 MeV. What is the speed of the recoiling electron?
+    Answer: 0.903c
+
+
+                                            11
+10. * A neutral p 0 meson (rest mass 135 MeV/c2 ) is observed to decay in flight into two
+    photons each with an energy of 80 MeV. Calculate the angle between the emitted
+    photons.
+    Answer: 115
+
+11. A stationary S+ particle decays into a proton and a g-ray of energy 224 MeV. What
+    is the recoil kinetic energy of the proton and the rest mass of the S+ particle?
+    Answer: 26 MeV; 1188 MeV/c2
+
+12. At HERA, a 920 GeV proton beam collided with a 27.5 GeV electron beam. What is
+    the heaviest particle which could, theoretically, have been created there?
+    Answer: 318 GeV
+
+13. * Classify the following reactions into strong, EM, weak or forbidden, explaining
+    your reasons:
+
+                         p + p ! K+ + p + L
+                         L ! K +p ,
+                         K +p ! L+g .
+                         nµ + p ! µ + p + + p 0 + p ,
+                         K+ ! p 0 + p + + g     .
+
+    (Masses: mp = 938 MeV/c2 ; mL = 1116 MeV/c2 ; mp ± = 140 MeV/c2 ; mK± =
+    494 MeV/c2 ; mµ = 106 MeV/c2 )
+    Partial answer: One EM, two weak and two forbidden.
+
+14. Patients suffering from an overactive thyroid can be treated by injection of a com-
+    pound containing radioactive iodine 131 I (half life 8 days). This concentrates in the
+    thyroid and kills cells. A medical physicist estimates that a dose with an initial
+    activity of 0.05 Ci is required. How many grams of 131 I should be injected?
+    1 Ci is 3.7 ⇥ 1010 disintegrations/sec.
+    Answer: 4 ⇥ 10 7 g
+
+15. Draw a clearly-labelled graph indicating the main features of the dependence of the
+    binding energy per nucleon of the stable nuclei as a function of their mass number.
+
+
+
+
+                                          12
+4    QUANTUM MECHANICS AND ATOMIC PHYSICS
+
+Photoelectric effect : Maximum energy of emitted electrons is Emax = hc/l f where l is
+     the wavelength of incident photons and f is the work function of the surface.
+De Broglie relations: p = h/l = h̄k and E = hn = h̄w.
+Momentum operator, eigenstates (one dimension):
+
+                                           d
+                             p̂ =   ih̄            ,           y p = eikx = eipx/h̄              .
+                                          dx
+Energy levels for simple harmonic oscillator:
+                                                       ✓            ◆
+                                                              1
+                                          en =             n+           h̄w         ,
+                                                              2
+
+    where w = (k/m)1/2 and k is a constant analogous to the classical spring constant.
+Energy levels for H-like ions:
+                                  en = Z2 R• /n2 ,
+     The formula and value for the Rydberg constant are given in the Table of Constants.
+     The single electron energy levels in atoms, in order of increasing energy, are
+     1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p,....
+Expectation values (for normalised wavefunction y):
+                                               Z
+                                     Ō =              y( x )⇤ Ô y( x ) dx             ,
+
+First order Perturbation theory (for normalised wavefunction y0 ):
+                                          Z
+                                DE =           y0 ( x )⇤ DV ( x ) y0 ( x ) dx                .
+
+Natural line width:
+                                               G = DE = h̄/t                    .
+Heisenberg Uncertainty Principle:
+                                               DxDp              h̄/2       ,
+     where
+                                    (Dp)2 = p2                 p2       ,           etc. .
+     For bound states p = 0 so that (Dp)2 = p2 . For simple attractive potentials, the
+     uncertainties are near the minimum allowed by the Uncertainty Principle, so:
+                                                                 ✓          ◆2
+                                                           2          h̄
+                                     p2    = (Dp) ⇡                                     .
+                                                                     Dx
+
+
+
+
+                                                        13
+Angular momentum The same rules apply to all angular momentum vector operators
+    X = J, L, S, j, l, s. They are:
+    (a) Angular momentum eigenstates with quantum numbers X, m X have
+                                      q
+                            | X | = h̄ X ( X + 1) , Xz = m X h̄ ,
+
+     where the allowed values of m X = X, X       1, ......,   X.
+
+     (b) Addition of angular momentum. If X = X 1 + X 2 the allowed values for the
+     quantum number X are
+
+                         X = X1 + X2 , X1 + X2      1, . . . , | X1   X2 |    .
+
+Spectroscopy Students should be familiar with the spectroscopic notation 2S+1 L J for atomic
+      states.
+
+
+4.1 Selected problems
+
+  1. Photoelectrons with a maximum energy of 0.4 eV are observed when light of wave-
+     length 450 nm is incident on a surface. Calculate the maximum wavelength of light
+     which will produce photoelectrons from this surface.
+     Answer: 530 nm
+  2. * An atomic state has an emission line of wavelength 6 ⇥ 10         7   m and natural width
+     10 13 m. Estimate its lifetime.
+     Answer: 2 ⇥ 10 9 s
+  3. * Estimate, using the Uncertainty Principle, the kinetic energy of an electron if it
+     were bound in the nucleus.
+     Answer: ⇠ 200 MeV for R ⇠ 1 fm
+  4. For a particle with rest mass m, derive a formula for the total energy that would be
+     required in order for it to resolve a structure of size l. Estimate this for the case of
+     resolving the internal structure of a nucleus using (i) an electron and (ii) a proton.
+     Answer: (i) 1.2 GeV; (ii) 1.6 GeV (for l = 1 fm)
+  5. * A muon is a particle very similar to an electron but with mass 105.6 MeV/c2 , and
+     a muonic atom is the bound state of a muon and a proton. Calculate the binding
+     energy of the ground state of a muonic atom.
+     Answer: 2.53 keV
+  6. An astromer observes that the blue Balmer line (l = 434.2 nm) has a Zeeman
+     splitting of 0.004 nm for sunlight coming from a sunspot region of the sun. Give a
+     rough estimate of the magnetic field at the sunspot.
+     Answer: 0.4 T.
+  7. Explain quantitatively how the wavelength for the n = 2 to n = 1 transition for
+     deuterium differs from that for hydrogen, ignoring hyperfine structure. The masses
+     of H1 , H2 and e are 1.00728, 2.01355 and 5.58 ⇥ 10 4 amu respectively.
+
+                                            14
+ 8. A lead target (atomic number Z = 82) is bombarded by an electron beam to produce
+    X-rays. Estimate the minimum electron kinetic energy required to eject an electron
+    from the innermost shell.
+    Answer: 90 keV
+
+ 9. A particle is confined by the one-dimensional square-well potential
+                                       (
+                                           V0   a<x<a
+                               V (x) =                     .
+                                         0    otherwise
+
+    Sketch the wave functions both inside and outside the well for the three lowest
+    energy levels, assuming that they are bound states.
+
+
+10. The normalised wavefunction for the 1s electron in the hydrogen atom is
+                                            1          r/a0
+                                  y= p             e          .
+                                           pa3/2
+                                             0
+
+   What is the mean value of (1/r2 ) in terms of the Bohr radius a0 ?
+   Answer: 2/a20
+
+11. * The normalised energy eigenfunctions and corresponding eigenvalues for a parti-
+    cle in a potential well are fn ( x ) and En , where n is the quantum number. At time
+    t = 0 the state of a particle is
+                                           3           4
+                              F( x, 0) =     f1 ( x ) + f2 ( x )   .
+                                           5           5
+   Write down the expression for F( x, t) for the time-dependent wavefunction. What
+   results could you expect to get for a measurement of the energy, and what are their
+   probabilities?
+
+12. An electron is described by the wavefunction
+
+                                  y = A sin(2px/L)            ,
+
+   where L = 3 ⇥ 10 8 m. What are the possible outcomes of a measurement of the
+   electron’s x-component of momentum?
+   Answer: ±41.3 eV/c
+
+13. A particle is in the ground state in a one-dimensional box given by the potential
+                                          (
+                                            0 0<x<a
+                                 V (x) =                    .
+                                            • otherwise
+
+   A small perturbation V = V0 x/a is now introduced. Show, correct to first order in
+   perturbation theory, that the energy change in the ground state is V0 /2.
+                                                     r        ⇣ npx ⌘
+                                                        2
+   The normalised wave functions of V ( x ) are Yn =      sin            .
+                                                        a        a
+
+                                           15
+14. * A p state in a hydrogen-like atom is found to be split into two states by the spin-
+    orbit coupling Vls = ll.s. Calculate the total angular momentum and energy shift
+    of each of the two levels.
+    Answer: lh̄2 /2 ( j = 3/2) ; lh̄2 ( j = 1/2)
+                                                                                    p
+15. * The magnitude of the total angular momentum of a particle is given by | L| = 6h̄.
+    Determine the possible values that could be obtained in a measurement of the
+    z-component of L.
+
+16. A particle of mass m is constrained to lie within a one-dimensional box extending
+    from x = a/2 to x = + a/2, within which it can move freely. It has a wave function
+    for its lowest energy state given by Y( x, t) = A cos px
+                                                           a exp( iEt/h̄ ).
+
+
+    Sketch the space dependence of the wave function and hence state the expectation
+    value of x.
+    By substituting the wave function into the Schrödinger equation
+
+                                       h̄2 ∂2 Y      ∂Y
+                                              2
+                                                = ih̄ ,
+                                       2m ∂x         ∂t
+    find an expression for the energy E of the particle.
+
+17. * A spin 12 particle is observed (for example, in a Stern-Gerlach apparatus) to be in
+    the state sz = 2h̄ . The particle then passes through an apparatus that measures sy
+    and is found to be in the state with sy = 2h̄ . What was the probability of obtaining
+    that result?
+   The particle then passes through a further apparatus that measures sz . What are
+   the possible results of this measurement, and with what probability will they be
+   obtained?
+
+
+
+
+                                          16
+5    GASES, LIQUIDS and SOLIDS
+
+Boltzmann distribution
+                                                       er /kT
+                                           pr µ e                   .
+Maxwell-Boltzmann speed distribution
+                                                       ✓                ◆
+                                              2              mv2
+                                   f (v) µ v exp                            .
+                                                             2kT
+
+Equipartition of energy
+                                        1
+                                E=        kT per degree of freedom.
+                                        2
+Bragg’s law
+                                           nl = 2d sin q            .
+Mean free path The average fraction of particles travelling a distance x without undergo-
+    ing collisions is
+                                      N (x)
+                                             = e x/l ,
+                                      N (0)
+     where the mean free path, for number density n, is:
+
+                                                       1
+                                            l= p                .
+                                                       2ns
+Ideal gases
+                          PV = nRT = NkT                and             E = E( T )   ,
+     where n is number of moles and N is number of particles. The energy is a function
+     of temperature only, independent of pressure. In addition, the difference of specific
+     heats is
+                                    CP CV = nR ,
+      and
+                                           PV g = constant
+      for an adiabatic expansions where g ⌘ CP /CV .
+
+STP: Standard temperature and pressure are defined as T = 0 C and p = 1 atm.
+
+Density of states in 3D
+                                             g(e) µ e1/2
+Heat capacity of a solid
+      Low-T: CV,el µ T, CV,latt µ T 3
+      High-T: CV = 3R
+
+
+
+
+                                                  17
+Wiedemann-Franz Law
+                                                       k
+                                                         µT
+                                                       s
+Semiconductor carrier concentrations
+                                  ✓                ◆                    ✓                  ◆
+                                    EF        EC                            EV        EF
+                    n ' NC exp                         ,   p ' NV exp
+                                         kT                                      kT
+
+Note: The symbol n has been used with several different meanings in the equations
+above!
+
+
+5.1 Selected problems
+
+  1. A small boat floats in a rectangular water tank of cross-sectional area 0.040 m2 . The
+     boat is initially loaded with a piece of iron of volume 1.0 ⇥ 10 5 m3 . The iron is then
+     removed from the boat and placed into the water, whereupon it promptly sinks
+     to the bottom of the tank. Calculate the change in the depth of the water in the
+     tank. You may assume that the density of water is 1000 kg m 3 and that of iron is
+     7900 kg m 3 .
+     Answer: 1.7 mm
+
+  2. * Estimate the mean free path and typical speed of atoms in a helium atmosphere at
+     standard temperature and pressure.
+     Answer: l ⇠ 8 ⇥ 10 7 m (d = 1Å) and speed ⇠ 1.3 ⇥ 103 m s 1
+
+  3. A room has a volume of 100 m3 . What is the mass of air within it? If the air were to
+     be liquified, what, approximately, would you expect its volume to be?
+     Answer: 120 kg; 0.1 m3 .
+
+  4. * Derive an expression for the most probable speed of a molecule in a sample of gas
+     at temperature
+             p      T.
+     Answer: 2kT/m
+
+  5. In a cloud chamber for photographing the tracks of a-particles the temperature of
+     the air is 10 C. If its volume is increased in the ratio 1.375 to 1 by a rapid expansion,
+     calculate the final temperature of the air (the ratio of specific heats of air is 1.41).
+     Answer: 248 K
+
+  6. Write down an expression for the pressure in an isothermal atmosphere at tempera-
+     ture T as a function of height z, the surface pressure p0 and the average molecular
+     weight m of the atmospheric constituents.
+     Calculate the scale height (at which the pressure has fallen to 1/e) of the surface
+     value of the Earth’s atmosphere, given that m = 29 a.m.u..
+     Answer: 7.9 km assuming T = 273 K
+
+  7. A skyscraper is 400m high. Estimate the atmospheric pressure at the top of the
+     skyscraper assuming that the building has a uniform temperature of 20 C.
+     Answer: 0.98 ⇥ 105 Pa = 0.96 atmosphere
+
+                                                   18
+ 8. * In a large underground cave, the concentration of helium in the air at the base is
+    measured to be 1.00 ⇥ 10 4 (this is the ratio of the number of He atoms to the total
+    number of molecules). If the air in the cave is at a constant temperature of 10 C,
+    what is the concentration of helium at the top of the cave, 300 m higher?
+    Answer: 1.03 ⇥ 10 4
+ 9. The acceleration due to gravity at a distance r from the centre of the Earth is g =
+    GM(r )/r2 , where M(r ) is the mass enclosed within a radius r. Assuming that the
+    density of the Earth is constant, calculate the pressure at the centre of the Earth.
+   Hint: First show that the change in pressure over an infinitesimal shell thickness dr
+   is dP = 4p      2
+               3 Gr r dr.
+   Answer: 1.7 ⇥ 1011 Pa
+10. * Explain what is meant by the principle of equipartition of energy. Use it to
+    determine the heat capacity CV of a diatomic gas of N molecules.
+   The molar specific heat cV of hydrogen at a temperature of 55 K is measured to be
+   approximately 12.5 J mol 1 K 1 , but at a temperature of 320 K is found to equal
+   approximately 20.8 J mol 1 K 1 . Explain these results in the light of those predicted
+   by equipartition.
+11. * The vibrational levels of carbon monoxide are spaced by 6.42 ⇥ 1013 Hz. Would
+    you expect vibrational excitations to make an important contribution to the specific
+    heat of CO at room temperature?
+    Answer: Tv ⇠ 3000 K i.e. negligible at room temperature
+12. What features of the interatomic potential energy curve are responsible in non-ionic
+    solids for (i) the latent heat of sublimation (ii) thermal expansion?
+13. The latent heat of vaporisation of carbon tetrachloride is 3.2 104 J mo1   1,   Estimate
+    the binding energy between pairs of molecules in the liquid state.
+    Answer: Approximately 0.07 eV
+14. * X-rays of energy 25 keV show a first order Bragg reflection from a crystal at an
+    incident angle of 10 to the reflecting plane. Neutrons of energy 0.025 eV are Bragg
+    reflected from the same crystal planes. For what angle does this reflection take
+    place?
+    Answer: 39.3 .
+15. X-rays with a wavelength of 0.16 nm are reflected off a crystal of silicon. The first
+    interference peak is observed at an angle of 36 to the normal to the crystal plane.
+    Find the spacing of the atoms in silicon.
+    Answer: 1.0 ⇥ 10 10 m
+16. Consider a silicon crystal whose band gap energy is Eg = 1.12 eV and whose
+    temperature is kept at T = 300 K.
+   If the Fermi energy, E f , is located in the middle of the band gap, calculate the
+   probability of a state that is an energy of kT above the conduction band edge being
+   occupied by an electron.
+   Answer: 1.5 ⇥ 10 10
+
+
+                                          19
+6   THERMAL AND STATISTICAL PHYSICS
+
+Some relevant formulae, e.g. the ideal gas laws, have been given under “Gases, Liquids
+and Solids”.
+
+First law of thermodynamics
+                                           DE = Q + W                       .
+Fundamental thermodynamic identity (hydrostatic systems)]
+                                        dE = TdS                    PdV             .
+Reversible processes
+                                 d̄Q = TdS             ,        d̄W =               PdV         .
+Ideal heat engines
+                                               Q1  Q
+                                                  = 2                   .
+                                               T1  T2
+Isolated systems (fixed E, V).
+                                     S = k ln W             ,        DS             0 .
+Canonical systems (fixed T, V)]
+                                      ei /kT
+    Partition function: Z = Â e                    .
+                                 i
+                                   e ber                                     1
+     Boltzmann distribution: pr =         ,                         b⌘                      .
+                         ✓        ◆ Z                                       kT
+                           ∂ ln Z
+     Mean energy: E =                   .
+                             ∂b     V
+     Free energy (Helmholtz): F = E TS =                        kT ln Z                 ,       DF  0 .
+
+Black body radiation: Stefan’s Law for power emitted
+                                                       sAT 4        .
+Density of states in three dimensions
+                                               ✓                ◆
+                                                     dn                 V k2
+                                      D (k)        ⌘                =                       .
+                                                     dk                 2 p2
+Fermi-Dirac distribution
+                                                           1
+                                                                        .
+                                               ee/kT + 1
+Bose-Einstein distribution
+                                                           1
+                                                   .
+                                                1
+                                               ee/kT
+Fermi momentum for spin-half particles at zero temperature
+                                         p F = h̄(3p 2 n)1/3                    .
+Bose-Einstein condensation Approximate criterion for the critical temperature for Bose-
+     Einstein condensation
+                                      lT ⇡ n 1/3 .
+
+                                                       20
+6.1 Selected problems
+
+ 1. Estimate the pressure at which a gas of argon atoms, at a temperature of 300 K, will
+    begin to show deviations from the ideal gas behaviour due to the finite size of the
+    atoms.
+    Answer: Of order 109 Pa
+
+ 2. The filament of a 100 W lamp has a radius of 12µm and is 0.3 m long. Estimate its
+    working temperature.
+    Answer: 3000 K
+
+ 3. * Estimate the temperature of a tumbling asteroid at a distance of 350 million km
+    from the Sun. Assume that the surface temperature of the Sun is 6000 K and that the
+    asteroid is a black-body.
+    Answer: 190 K
+
+ 4. * A mole of an ideal diatomic gas is compressed adiabatically by a factor of 2 in
+    volume. How much work is required if it is initially at STP?
+    Answer: 1.81 kJ
+
+ 5. A mole of ideal gas initially at STP is compressed till the volume has halved but the
+    temperature is unchanged. This is done in two different ways:
+    a) isothermal compression;
+    b) isobaric compression followed by isochoric heating.
+    Draw these two processes on a PV plot, and calculate the work done in each case.
+    Comment on the result in the light of the first law of thermodynamics.
+    Answer: Work done is (a) 1.57 kJ, (b) 1.13 kJ
+
+ 6. One 20th of a mole of ideal gas is confined within a volume of 1 litre. A partition
+    is removed to allow it to expand freely into a vacuum, so that the final volume is
+    2 litres; no heat is exchanged with the surroundings during the process. What are
+    the changes in energy, temperature and entropy of the gas?
+    Answer: DS = 0.288 J K 1
+
+ 7. Calculate the change in entropy of 0.5 kg of ice at 0 C when it is heated to steam
+    at 100 C. (The latent heats of fusion and evaporation are 3.40 ⇥ 105 J kg 1 and
+    2.26 ⇥ 106 J kg 1 respectively. The specific heat of water is 4200 J kg 1 K 1 ).
+    Answer: 4.30 ⇥ 103 J K 1 .
+
+ 8. * A 1.0 kg block of copper, with a specific heat capacity of 385 J kg 1 K 1 and a
+    temperature of 100 C, is thrown into a lake at 10 C. Calculate the change in entropy
+    of the block. What is the change in entropy of the universe as a result of this process?
+    Answer: 106 J K 1 ; 16 J K 1
+
+ 9. * Two identical bodies of constant specific heat are at temperatures of 0 C and 100 C.
+    What is the lowest temperature to which both bodies can be brought together in
+    equilibrium by transferring heat from the hotter to the colder body by means of a
+    reversible heat engine?
+    Answer: 319 K
+
+
+                                           21
+10. * A perfectly reversible heat pump heats a building at 20 C by taking heat from the
+    atmosphere at 5 C. If the heat pump is run by an electric motor whose efficiency is
+    80%, what is the cost of 1 kWhr of heat supplied? (1 kWhr of electricity costs 14p.)
+    Answer: 0.9p
+
+11. Estimate the steady-state cost per week of running a domestic electric refrigerator.
+    Assume that room temperature is 20 C and the internal temperature is 2 C. The
+    walls are 15 mm thick, having a total surface area of 8 m2 and a thermal conductivity
+    of 2 ⇥ 10 2 W m 1 K 1 . The cost of electricity is 14p per kWhr.
+    Answer: 30p
+
+12. A pond of water at 0 C is freezing from the top, when the air temperature is 5 C.
+    Obtain an approximate expression for the depth of the ice as a function of time in
+    terms of its thermal conductivity, K, latent heat of melting, L, and density r. How
+    long does it take for the pond to freeze to a depth of 1 cm?
+    The ice has a density of 920 kg m 3 , its latent heat of melting is 0.33 MJ kg 1 , and its
+    thermal conductivity is 2.3 W m 1 K 1 .
+                                                              ds       KDT
+    Hint: the rate of growth of the thickness, s, of ice is   dt   =   sLr
+    Answer: 22 min
+
+13. Write down an expression for the entropy S of a system in terms of the number of
+    quantum microstates W.
+    For a change in entropy DS from state 1 to state 2, what is the ratio of microstates
+    W2 /W1 ? If DS is 1 J K 1 , what is W2 /W1 ?
+                   22
+    Answer: 103⇥10
+
+14. * A two-level system has an energy splitting e between the upper and lower state.
+    Show that at high temperatures the heat capacity per system varies as 1/T 2 .
+
+15. Estimate the density of neutrinos for which the Fermi temperature would be 3 K,
+    assuming that neutrinos have a rest mass of 10 eV/c2 .
+    Answer: 1.63 ⇥ 1015 m 3 (assumes two spin states)
+
+16. * In the original experiment showing Bose-Einstein condensation of Rubidium 87,
+    20,000 atoms were trapped and the condensate appeared as the temperature was
+    lowered to 170 nK. Estimate the size of the condensate cloud.
+    Answer: Of order 20 µm across
+
+
+
+
+                                            22
+7    ELECTRICITY AND MAGNETISM
+
+Fields
+
+The Lorentz force:
+                                         F = q ( E + v ⇥ B)                .
+Maxwell’s equations:
+
+                     div D = rf ,                                        div B = 0 ,
+                     curl E = ∂B/∂t        ,                            curl H = jf + ∂D/∂t       ,
+
+      where in vacuum
+                                     D = e0 E        ,         B = µ0 H          .
+      The charge and current are the “free” charge and current.
+      In linear media, Maxwell’s equations hold for smoothly varying “local averaged”
+      fields where the subsidiary D and H fields are now given by
+
+                     D = e0 ( E + P ) = e e0 E   ,          B = µ0 ( H + M ) = µ µ0 H             .
+
+      In addition, for conductors we have Ohm’s law:
+
+                                                 j = sE             .
+
+Field energy density and flux:
+
+                               E  1
+                                 = ( D · E + B · H ),                    N = E⇥H .
+                               V  2
+Boundary conditions :
+      B? and Ek are continuous.
+      D ? and H k are continuous in absence of free surface charges and currents.
+Integral forms of Maxwell’s equations:
+                                                 Z
+                        Gauss’s theorem                  E · dS = Q/e0           ,
+                                                                                Z
+                                                            dF             d
+                           Faraday’s law         E=            ⌘                     B · dS   ,
+                                                            dt             dt
+
+      and provided the displacement current vanishes
+                                                           I
+                                 Ampere’s law                      H · dl = Ienc      ,
+                                                               C
+
+      where Ienc is the current through the area enclosed by C.
+
+
+
+
+                                                     23
+Circuits
+
+Resistors, capacitors and inductors:
+
+                    V = I R,              V = Q/C,                 V = L dI/dt      .
+
+The power dissipated by a resistor is
+
+                                       W = IV = I 2 R = V 2 /R ,
+
+The energy stored in a capacitor or an inductor is
+
+                           E = CV 2 /2 or      E = LI 2 /2,    respectively.
+
+AC circuits Here V = IZ where individual impedances are given by
+
+                        ZR = R     ,     ZL = i w L    ,       ZC = 1/i w C     .
+
+      Like resistances, impedances in series and in parallel combine as
+
+                                                       1     1   1
+                            Zser = Z1 + Z2     ,           =   +            .
+                                                      Zpar   Z1 Z2
+
+      and the average power dissipated in a load circuit is
+                                    2
+                               W = Irms | Z | cos q = Irms Vrms cos q   ,
+                         p
+      where Irms = Imax / 2 etc.. For a resistor, this reduces to the familiar result
+                                                  2        2
+                                W = Vrms Irms = Vrms /R = Irms R        .
+
+Resonant frequency of an “LC-circuit”:
+
+                                            w 2 = 1/L C    .
+
+
+7.1 Selected problems
+
+   1. * When a beam of electrons is passed through a region where there are simulta-
+      neously present an electric field of 103 V m 1 and an orthogonal magnetic field
+      of 10 3 T it is found that the electrons are not deflected. When the electric field is
+      absent the electrons move in a circle of radius 5.7 mm. Calculate the velocity of the
+      electrons and their charge to mass ratio.
+      Answer: 106 m s 1 ; 1.75 ⇥ 1011 C kg 1
+
+   2. A sulphur sphere of radius 0.1m and relative permittivity 3.4 is uniformly charged
+      throughout its volume to a charge density of 10 5 C m 3 . What is the electric field
+      at a point 0.05 m from the centre?
+      Answer: 5.5 ⇥ 103 V m 1
+
+
+                                               24
+ 3. * Assuming that the largest electric field that can be sustained in air is 106 V m   1,
+
+    calculate the maximum electric energy density that can be created in air.
+    Answer: 4.4 J m 3
+ 4. * An infinite metal plate is kept at zero potential. A charge A of 128 coulombs
+    is positioned above the plate, and another charge of 9 coulombs is held half-way
+    between A and the plate. Show that A is in equilibrium.
+ 5. A round, straight copper wire of radius 1 mm carries a steady current of 1 A. Find
+    and sketch the resulting magnetic field both inside and outside the wire.
+    Answer: 0.2r Tesla and 2 ⇥ 10 7 /r Tesla, where r is in metres
+ 6. * A wire loop of resistance 0.1 W has an area of 2.5 ⇥ 10 3 m2 . It is initially in a
+    uniform magnetic field of 1 T, which is normal to the plane of the loop. How much
+    charge flows round the loop when it is removed to a region of zero magnetic field?
+    Answer: 25 mC
+ 7. * A ferromagnetic bar with a length of 0.5m and a relative permeability of 1000, is
+    bent into a C shape leaving a 2mm parallel gap between the bar ends. A 2000-turn
+    coil wound on the bar carries a current of 0.2 A. What is the magnetic field in the
+    gap?
+    Answer: 0.20 T
+ 8. Define what is meant by the polarisation of an electromagnetic wave. State how two
+    linearly polarised plane waves can be combined to form a circularly polarised wave.
+ 9. The television transmitter for Manchester is on Winter Hill near Bolton. Assuming
+    that this is 30 km away and that the signal is transmitted in all directions with a
+    power of 100 kW, calculate the r.m.s. amplitude of the corresponding electric and
+    magnetic fields in Manchester.
+    Answer: 0.058 Vm 1 ; 1.9 ⇥ 10 10 T
+10. An electric field is given by E = E( x, t)ŷ, where
+                                       ∂2 E           ∂2 E
+                                            = µ 0 e 0      .
+                                       ∂x2            ∂t2
+    Write down down a solution which is periodic with an angular frequency w and
+    wavenumber k and find the relationship between w, k and µ0 e0 . What is the physical
+    significance of the relationship?
+11. A capacitor is made of two metal disks of radius 1.0 cm separated by a slab of mica
+    of thickness 0.10 mm and a relative permittivity of 7.2. The capacitor is charged until
+    the potential difference between the disks is 100 V. The disks are then connected by
+    a wire. How much heat will be released?
+    Answer: 1.00 ⇥ 10 6 J
+12. * A toroidal coil is made by winding a length of wire uniformly round a non-
+    magnetic insulating thin ring. A 10 µF capacitor charged to 400 V is discharged
+    through the coil. Find the peak value of the magnetic field, given that the volume
+    enclosed by the coil is 100 cm3 . Assume that the resistance of the coil is negligible.
+    Answer: 0.142 T
+
+                                            25
+13. A long solenoid, wound with 10,000 turns per metre, is bent to form a toroidal coil,
+    enclosing an air volume of 50 cm3 . What is its self-inductance?
+    Answer: 6.28 mH
+
+14. A 75 W non-inductive light bulb is designed to run from an ac supply of 120 V rms
+    to 50 Hz. If the only supply available is 240 V rms show that the bulb can be run at
+    the correct power by placing either a resistance R, or a capacitor C in series with it.
+    Find the values of R and C and the power drawn from the supply in each case.
+    Answer: 192 W; 150 W; 9.6 µF; 75 W
+
+15. A circuit has a capacitance C, a resistance R and an inductance L in series. The
+    capacitor is initially charged to a voltage V0 at time t = 0 and then a switch is closed
+    to complete the circuit. Given that R ⌧ | ZC | and R ⌧ | ZL |, draw a graph to show
+    how the voltage across the resistor varies with time.
+
+
+
+
+                                           26
+8   WAVES AND OPTICS
+
+Doppler shift
+                                                            dl    v
+                                 Nonrelativistic               =     ,
+                                                             l    c
+                                                               ✓       ◆
+                                                          l0     c + v 1/2
+                         Relativistic (colinear)             =                       .
+                                                          l      c v
+Beat frequency:
+                                        f beat = | f 1    f2 |       .
+Phase and group velocity
+                                          w                          dw
+                                   vp =        ,         vg =                    .
+                                          k                          dk
+Width of a wave packet
+                                       Dx Dk >⇠1 ,
+     which gives the uncertainty principle Dx Dp >
+                                                 ⇠ h̄ on substituting p = k h̄.
+Refractive index
+                                            c   l
+                                      n=      = 0 ,
+                                           vp   l
+     where l0 is the wavelength in vacuum.
+Snell’s law
+                                    sin q1  c   n
+                                           = 1 = 2                       .
+                                    sin q2  c2  n1
+The lens formula
+                                           1 1  1
+                                            + =                  .
+                                           u v  f
+Constructive interference In vacuo or a homogeneous medium the condition is
+
+                                     Path difference = n l                   .
+
+     More generally, this result must be modified to take account of the change of
+     wavelength for different refractive indices (see above), and the phase change of p
+     which occurs when light is reflected at a boundary with a less dense medium.
+Resolving power: diffraction limit
+                                       dq ' 1.22l/d .
+     Here dq is the angular separation of the peak and first minimum of the diffraction
+     pattern (Rayleigh criterion) so that the full angular width induced in a parallel beam
+     on passing through an aperture is 2dq.
+
+
+
+
+                                               27
+8.1 Selected problems
+
+ 1. An observer standing on a railway platform hears the whistle of an approaching
+    train change its pitch as it passes by from 880 Hz to 720 Hz. What is the speed of the
+    train, given that the speed of sound in air is 330 m s 1 ?
+    Answer: 33 m s 1
+
+ 2. * The second resonance of an organ pipe open at both ends has the same frequency
+    as the second resonance of a pipe 0.3 m in length open at one end only. What is the
+    length of the open pipe?
+    Answer: 0.4 m
+
+ 3. An empty room with sound-reflecting walls has a volume of 50 m3 . Estimate the
+    number of (resonant) acoustic modes with frequencies between 440 Hz and 880 Hz.
+    You may assume that the speed of sound in air is 330 m s 1 .
+    Answer: ⇠ 3470
+
+ 4. * The phase velocity of surface waves of small wavelength l on a deep liquid is
+    given by
+                                             2pS
+                                       v2p =
+                                              lr
+
+   where S is the surface tension and r is the density. Determine the ratio of the group
+   and phase velocities.
+   Answer: v g /v p = 3/2
+
+ 5. A brief but violent storm at sea produces waves of dominant wavelength 50 m. How
+                                                          pthe coast, 1000 km away? (Deep
+    long will it take for the disturbance to be detected at
+    water waves satisfy the dispersion relation w = gk, where g is the acceleration
+    due to gravity.)
+    Answer: 2.6 days
+
+ 6. * The note from a tuning fork of unknown frequency makes three beats per second
+    with the note from a standard fork of frequency 440 Hz. The beat frequency increases
+    when a small piece of wax is put on a prong of the first (unknown-frequency) fork.
+    What is the frequency of this fork?
+    Answer: 437 Hz
+
+ 7. Two laser beams with powers of 100µW and 1µW are combined so that they interfere
+    on the surface of a detector. If the frequency of one beam is slightly different from
+    the other, what is the magnitude of the power modulation at the detector?
+    Answer: 81 - 121 µW
+
+ 8. With the assistance of a sketch, explain how a mirage is formed.
+
+ 9. A parallel beam of light of diameter 1 mm enters a concave lens of focal length
+    100 mm. The beam expands and is at a diameter of 5 mm where it enters a convex
+    lens of focal length 100 mm. The beam is then brought to a focus.
+
+
+
+                                          28
+    Sketch a typical ray path through the lenses. What is the distance between the two
+    lenses? What is the distance from the convex lens to the focus of the beam?
+    Answer: 40 cm; 12.5 cm
+
+10. * In normal use, is the image formed by a magnifying glass real or virtual? For an
+    observer with a near point at 25 cm from the eye, what is the greatest magnification
+    that can be obtained with a magnifying glass of focal length 10 cm and where should
+    the object be placed to achieve it?
+    Answer: 3.5; 7.1 cm
+
+11. * It is required to broadcast a radio signal at 3000 MHz from the Moon to the whole
+    of the nearside of the Earth. What diameter of antenna should be used? Take the
+    distance of the Moon from the Earth to be 400,000 km.
+    Answer: 7.6 m
+
+12. At what distance does diffraction limit the reading of a car registration number
+    plate?
+    Answer: Of order 100 m
+
+13. * A diffraction grating has 10,000 lines in 2 cm. What is the angular separation, in
+    second order, of a doublet of wavelengths 6438.0 Å and 6438.1 Å, if the grating is
+    used with normal incidence?
+    Answer: 1.3 ⇥ 10 5 rad
+
+14. A pair of narrow parallel slits illuminated by monochromatic light of wavelength
+    500 nm produces interference fringes on a screen. When one of the slits is covered
+    by a thin film of transparent material of refractive index 1.60, the zero order bright
+    fringe moves to the position previously occupied by a bright fringe of the 15th order.
+    What is the thickness of the film? How might the zero order fringe be identified in
+    practice?
+    Answer: 12.5 µm
+
+15. * A plane parallel, monochromatic light source of wavelength 650 nm is used to
+    illuminate two parallel slits of equal width, whose centres are separated by 0.15 cm.
+    The fifth order of interference is the first order not observed. How wide are the slits?
+    Answer: 0.03 cm
+
+16. Unpolarised light of intensity I0 is incident on three perfect linear polarisers, placed
+    in series behind each other. The transmission axis, T, of the first is vertical, the
+    second has its transmission axis at an angle q to the vertical and the third has its
+    transmission axis at 60 to the vertical.
+
+
+
+
+                                           29
+                       T
+
+                                             T
+
+
+
+                                         θ
+                                                                 T
+                                                           o
+                                                         60
+
+
+
+
+The second polariser is initially vertical (q = 0) and is then rotated. At what values
+of q will the final intensity be zero? What is the general expression for the light
+intensity as a function of q?
+
+
+
+
+                                      30
+                                                                               PHYS30010
+
+
+                                   THREE HOURS
+
+
+
+                             A list of constants is enclosed.
+
+
+
+
+                       UNIVERSITY OF MANCHESTER
+
+
+General physics
+
+
+
+                           23rd May 2019, 09:45 a.m. - 12:45
+
+
+
+                       Answer as many questions as you can.
+             Marks will be awarded for your THIRTEEN best answers.
+
+                           Each question is worth 10 marks.
+
+
+
+
+         Electronic calculators may be used, provided that they cannot store text.
+
+
+
+
+c University of Manchester, 2019          1 of 5                                     P.T.O
+                                                                                PHYS30010
+
+
+1. Sketch the distribution of speeds for molecules in a gas, and indicate the most probable
+   speed. Calculate this for nitrogen at standard temperature and pressure.
+
+
+
+2. A parallel-plate capacitor is made from two disks of area 1 m2 , with a gap of 2 mm filled
+   with a mica (✏r = 7.2) sheet. The capacitor is fully charged at a voltage of 100 V and
+   disconnected from the power supply. What is the work done in removing the sheet?
+
+
+
+3. Collimated white light is incident at an angle of 53 from the normal onto a thin film of
+   refractive index n = 1.33. Calculate the minimum thickness of film that gives an intense
+   yellow ( = 600 nm) reflection, and state the polarisation of light that maximises the
+   intensity of the reflection.
+
+
+
+4. Give two signatures of nuclear saturation.
+
+
+   How does the Coulomb interaction in the semi-empirical mass formula depend on Z and
+   A? Briefly explain your answer.
+
+
+
+5. The amplitude of an underdamped oscillator as a function of time is given by
+
+
+                                                t
+                                  x(t) = x0 e       cos (!t) .
+
+   Given that = (0.6 ± 0.1) s 1 , x0 = 10.0 m and ! = (20 ± 1) s 1 , calculate the predicted
+   amplitude and its uncertainty at a time t = 2 s.
+
+
+
+6. An observation is made of an atomic transition at 0 = 560 nm at positions across the face
+   of the sun. A variation in transition wavelength of     = 8⇥10 3 nm is noted between
+   observations at the two extrema along the solar equator. Calculate the period of solar
+   rotation.
+
+
+
+
+                                             2 of 5                                   P.T.O
+                                                                                    PHYS30010
+
+
+ 7. Two identical wedges, each of mass m, are placed next to each other on a flat floor. A
+    cube of mass M is balanced on the wedges as shown in the figure. Assume no friction
+    between the cube and the wedges, but a coefficient of static friction µ < 1 between the
+    wedges and the floor. Draw free-body diagrams for the cube and for one of the wedges.
+    What is the heaviest cube that can be balanced without the wedges slipping?
+
+
+                                                    M
+
+                                         m                     m
+                                              θ            θ
+
+
+ 8. A pion (mass 135 MeV/c2 ) decays in flight into two photons, each with energy 100 MeV.
+    How fast is the pion travelling? What is the opening angle between the photons?
+
+
+
+ 9. State the law of mass action that relates the electron and hole concentrations, n and p
+    respectively, in a semiconductor to the intrinsic carrier concentration ni .
+
+
+    The relationship between the Fermi level (EF ) and intrinsic Fermi level (Ei ) in a semi-
+    conductor is                                       " #
+                                              kB T      n
+                                   EF = Ei +        ln     .                              (1)
+                                               2        p
+    In silicon at room temperature, where kB T is 0.025 eV, ni is 1010 cm 3 . In the np junction
+    of a silicon diode, the values of donor doping in the n-type and accepter doping in the
+    p-type semiconductors are equal, and the potential di↵erence (built-in potential) is 0.7 V
+    Estimate the dopant concentration, N . State any assumptions you need to make.
+
+
+
+10. A particle of mass m is in a 1-dimensional infinite square well with V (x) = 0 for 0 < x < a.
+    At t = 0 the wave function is
+                                                   ✓       ◆   ✓   ◆
+                                          2    3⇡x     ⇡x
+                                   (x) = p sin     cos    .
+                                           a    a       a
+
+    If the energy is measured, what possible values may be obtained, with what probabilities?
+                                                             ma2
+    Write down the wave function at a subsequent time t =         .
+                                                             2⇡h̄
+
+
+
+
+                                                  3 of 5                                  P.T.O
+                                                                                PHYS30010
+
+
+11. An exoplanet is entirely eclipsed by its host star once per orbit, at which point the
+    observed brightness of the system drops by 1 part in 106 compared to the regular out-of-
+    eclipse level. From a spectral analysis, the observer can identify two approximate black-
+    body spectra of the star and the exoplanet, peaking at wavelengths 500 and 2900 nm
+    respectively. Assuming that all the observed brightness is solely due to the blackbody
+    emission from each source, determine the ratio of the radius of the planet to that of the
+    star.
+
+
+
+12. A tunnel is cut through the centre of the Earth, through which a 1 kg mass is dropped.
+    Assume the Earth is a sphere of uniform density, and a linear drag of Fd = bv is
+    experienced by the mass, where v is particle velocity and b = 10 4 Ns/m. Calculate the
+    natural frequency !0 and Q-factor of the system.
+
+
+
+
+13.   a) Fourier’s law of heat transfer in 1D is given by
+
+
+                                            dQ    T
+                                               =    ,
+                                            dt   R
+
+         where dQ/dt is the heat transfer, T is the temperature di↵erence across the sample,
+         and R is the thermal resistance.
+         Give an expression for the thermal resistance of a rectangular slab in terms of the
+         thickness d, area A and thermal conductivity .
+      b) An Intel CPU has a maximum temperature rating of 72 C. Its thermal power
+         rating is 95 W. It has a package size of 37.5 mm by 37.5 mm. The CPU is glued to
+         a heatsink that has a thermal resistance of 0.4 C/W. The glue layer has a thermal
+         resistance of 0.1 C/W if properly applied.
+           i) Determine if the CPU will exceed its maximum temperature in this case.
+          ii) In a particular sample, the thermal glue has been poorly applied over 30% of
+              the area and has decreased its thermal conductivity by a factor five in these
+              regions. Will the maximum temperature be exceeded?
+
+
+
+14. We place a charge q at height h above the middle of a large, grounded, conducting plate.
+    Find the charge density on the plate.
+
+
+
+
+                                              4 of 5                                  P.T.O
+                                                                                 PHYS30010
+
+
+15. Two rockets, A and B, depart simultaneously from the Earth in opposite directions at
+    speeds of 0.8c. What is the relative velocity of the two rockets? After a year as measured
+    in its own rest frame, rocket B emits a light signal. When an observer in rocket A detects
+    the signal, how much older is she than at departure?
+
+
+
+                            END OF EXAMINATION PAPER
+
+
+
+
+                                              5 of 5
+  Physical Constants and Measured Values
+Symbol   Description                            Numerical Value
+c        Speed of light in vacuum               299 792 458 m s 1 , exactly
+µ0       Permeability of vacuum                 4⇡ ⇥ 10 7 N A 2
+                                       p
+✏0       Permittivity of vacuum; c = 1/ ✏0 µ0   8.854 ⇥ 10 12 C2 N 1 m 2
+h        Planck constant                        6.626 070 15 ⇥ 10 34 J s, exactly
+~        h/2⇡                                   1.055 ⇥ 10 34 J s
+~c                                              197.3 eV nm, or MeV fm
+G        Gravitational constant                 6.674 ⇥ 10 11 m3 kg 1 s 2
+e        Elementary charge                      1.602 176 634 ⇥ 10 19 C, exactly
+eV       Electron volt                          1.602 ⇥ 10 19 J
+                                      2
+↵        Fine structure constant, 4⇡✏e 0 ~c     1/137.0
+me       Electron mass                          9.109 ⇥ 10 31 kg
+me c2    Electron rest-mass energy              0.5110 MeV
+µB       Bohr magneton, 2me   e~
+                                                9.274 ⇥ 10 24 J T 1
+                               2   2
+R1       Rydberg energy, ↵ m2 e c               13.61 eV
+a0       Bohr radius ↵1 m~e c                   0.5292 ⇥ 10 10 m
+Å       Ångström                             10 10 m
+mp       Proton mass                            1.673 ⇥ 10 27 kg
+mp c2    Proton rest-mass energy                938.272 MeV
+mn c2    Neutron rest-mass energy               939.565 MeV
+µN       Nuclear magneton, 2m    e~
+                                   p
+                                                5.051 ⇥ 10 27 J T 1
+fm       Femtometer or Fermi                    10 15 m
+b        Barn                                   10 28 m2
+u        Unified atomic mass unit               1.661 ⇥ 10 27 kg
+NA       Avogadro constant, atoms in mole       6.022 140 76 ⇥ 1023 mol 1 , exactly
+Tt       Triple-point temperature               273.16 K
+kB       Boltzmann constant                     1.380 649 ⇥ 10 23 J K 1 , exactly
+R        Molar gas constant, NA kB              8.314 J mol 1 K 1
+                                           2 k4
+         Stefan-Boltzmann constant, ⇡60 ~3Bc2   5.670 ⇥ 10 8 W m 2 K 4
+ME       Mass of Earth                          5.972 ⇥ 1024 kg
+RE       Mean radius of Earth                   6.371 ⇥ 106 m
+g        Standard acceleration due to gravity   9.806 65 m s 2 , exactly
+atm      Standard atmosphere                    101 325 Pa, exactly
+M        Solar mass                             1.988 ⇥ 1030 kg
+R        Solar radius                           6.957 ⇥ 108 m
+L        Solar luminosity                       3.828 ⇥ 1026 W
+T        Solar e↵ective temperature             5772 K
+au       Astronomical unit, Earth-Sun distance 149.597 870 7 ⇥ 109 m, exactly
+pc       Parsec                                 3.086 ⇥ 1016 m
+yr       Year                                   3.156 ⇥ 107 s
+PHYS 30010 GENERAL PHYSICS                                     2018/19 EXAM ANSWERS
+
+              1
+1. 403 ms
+                  4
+2. 9.9 ⇥ 10           J
+3. 140 nm; polarised perpendicular to plane of incidence
+4. No numerical answer.
+5. Standard propagation of errors gives    2.0±4.5 m, but you should think about whether
+this might overestimate the uncertainty.
+6. 2.0 ⇥ 106 s
+             2µ
+7. M =            m
+          tan ✓ µ
+8. 0.74 c; 85
+9. 1.2 ⇥ 1016 cm 3
+    2⇡ 2 ~2 8⇡ 2 ~2
+10.        ,         with 50:50 probabilities
+     ma2      ma2
+                                  ✓                                   ◆
+                   2           1              4⇡x               2⇡x          2    3⇡x     ⇡x
+       (x, t = ma /2⇡~) = p         e i4⇡ sin     +e   i⇡
+                                                            sin           = p cos     sin
+                                a              a                 a            a    a       a
+
+11. 0.034
+12. !0 = 1.24 ⇥ 10 3 s 1 ; Q = 12.4
+              d
+13. (a) R =
+             A
+(b) Both cases are OK if the ambient temperature is 20 C; the second is not if the ambient
+temperature is 22 C.
+                   qh
+14. (r) =                   , where r is the distance from the centre of the plate
+            2⇡(r2 + h2 )3/2
+15. 0.976 c; 9.0 years
+
+
+
+
+                                              1
+Exponentials and Logarithms
+
+     eln x = x,     ln(e) = 1,           ln(ea ) = a,     ln(xa ) = a ln x,        loga x = ln x/ ln a
+     ea eb = ea+b ,   ln(xy) = ln x + ln y,               ln(x/y) = ln x          ln y.
+
+Complex Numbers
+The imaginary unit i is defined by i2 = 1; the symbol “j” is sometimes used as well.
+A complex number can be written in terms of real and imaginary part, or in terms of the modulus r and
+angle ✓ (de Moivre’s theorem),
+
+     r ⌘ z = x + iy = rei✓ = r[cos ✓ + i sin ✓],                     ✓ = arctan(y/x)      .
+
+Under complex conjugation we take i !                       i,
+
+     z⇤ = x       iy = re   i✓
+                                 = r[cos ✓         i sin ✓].
+
+The modulus of z is the real number
+          p       p
+     |z| = z ⇤ z = x2 + y 2 .
+
+We can define the sine and cosine in terms of complex numbers by
+               1 ⇥ i✓       i✓
+                                 ⇤                 1 ⇥ i✓            i✓
+                                                                          ⇤
+     cos ✓ =      e +e               ,   sin ✓ =      e          e            .
+               2                                   2i
+
+Trigonometry
+
+     sin2 x + cos2 x = 1,
+     sin(x ± y) = sin x cos y ± cos x sin y,
+     cos(x ± y) = cos x cos y ⌥ sin x sin y,
+
+This allows us to derive the following equations
+                  1
+     sin x cos y =   (sin(x + y) + sin(x y)) ,
+                  2
+                   1
+     cos x cos y = (cos(x + y) + cos(x y)) ,
+                   2
+                  1
+     sin x sin y = ( cos(x + y) + cos(x y)) .
+                  2
+
+                          1           1
+     sin x ± sin y = 2 sin (x ± y) cos (x ⌥ y),
+                          2           2
+                           1           1
+     cos x + cos y = 2 cos (x + y) cos (x y),
+                           2           2
+                             1           1
+     cos x cos y = 2 sin (x + y) sin (x y).
+                             2           2
+
+     sin 2x = 2 sin x cos x,
+     cos 2x = cos2 x sin2 x = 2 cos2 x                   1=1          2 sin2 x.
+Hyperbolic functions
+
+                    1⇥ x     ⇤                                       1⇥ x                ⇤
+      cosh x =        e + e x = cos(ix),                  sinh x =     e         e   x
+                                                                                             =   i sin(ix).
+                    2                                                2
+
+Power Series
+Geometric Series
+
+                    2               n       1    xn+1
+      1 + x + x + ... + x =                           ,
+                                                1 x
+      1
+      X                 1
+             xn =               ,   |x| < 1.
+       j=1
+                    1       x
+
+    Binomial expansion
+
+                                    n(n 1) 2 n(n                1)(n        2)
+      (1 + x)n = 1 + nx +                 x +                                    x3 + . . .          ,
+      ✓ ◆                              2!                       3!
+        n          n!
+            =                           .
+        m      m!(n m)!
+
+Here n is not necessarily an integer. Taylor series of f (x) about x = x0 :
+
+                                         df               1           d2 f
+                                                                      2
+      f (x) = f (x0 ) + (x          x0 )                 + (x    x0 )                        + ...
+                                         dx       x=x0    2           dx2        x=x0
+
+
+Some Standard MacLaurin series (Taylor series, but x0 = 0)
+
+                   x2 x3
+      ex = 1 + x +     +     + ...      x 2 R,
+                    2!    3!
+                  x2 x4
+      cos x = 1      +     + ...       x 2 R,
+                  2!    4!
+                  x3 x5
+      sin x = x      +     + ...      x 2 R,
+                  3!    5!
+                         x2 x3
+      ln(1 ± x) = ±x         ±    ...     |x| < 1,
+                         2     3
+      (1 ± x) 1 = 1 ± x + x2 ± x3 . . .     |x| < 1.
+
+L’Hôpital’s rule: if f (x0 ) = g(x0 ) = 0,
+
+             f (x)       df /dx
+       lim         = lim
+      x!x0   g(x) x!x0 dg/dx
+Differentiation and integration
+Standard derivatives (a is a constant)
+
+      f (x)  xn               eax              ln x
+      df /dx nxn     1
+                              aeax             1/x
+
+      f (x)  sin x            cos x            tan x
+      df /dx cos x              sin x          sec2 x
+
+      f (x)  sinh x           cosh x           tanh x
+      df /dx cosh x           sinh x           sech2 x
+
+      f (x)  sinp1 (x/a) cos p
+                             1
+                               (x/a) tan 1 (x/a)
+      df /dx 1/ a2 x2      1/ a2 x2 a/(a2 + x2 )
+
+                  1          1
+      f (x)  sinh
+                p (x/a) cosh
+                          p (x/a)              tanh 1 (x/a)
+      df /dx 1/ a2 + x2 1/ x2 a2               a/(a2 x2 )
+
+All of these can be used to calculate integrals. The only one that has a more generic expression is
+       Z
+          1
+            dx = ln |x| + c.
+          x
+Note the appearance of the constant of integration.
+
+Product rule and integration by parts
+
+       d                df (x)              dg(x)
+          [f (x)g(x)] =        g(x) + f (x)        ,
+     Zdx                 dx             Z dx
+               dg(x)                        df (x)
+         f (x)       dx = f (x)(g(x)               g(x)dx.
+                dx                           dx
+
+Chain rule and integration by substitution
+
+      d             df (g) dg(x)
+        f (g(x)) =               ,
+     dx              dg     dx
+     Z                       Z
+                 dg(x)
+        F (g(x))       dx = F (g)dg.
+                  dx
+
+Partial Derivatives
+Given a function of more than one variable, e.g., f = f (x, y), we have
+           ✓ ◆          ✓ ◆
+             @f           @f
+     df =          dx +        dy.
+             @x y         @y x
+
+If x = x(r, ) and y = y(r, ) we get the chain rule
+      ✓ ◆        ✓ ◆ ✓ ◆          ✓ ◆ ✓ ◆
+        @f        @f      @x        @f      @y
+               =                +                  .
+        @r        @x y @r           @y x @r
+Differential equations
+The following 3 ODEs can be solved by substituting an exponential solution,
+
+                  ẏ = y                                        y = Ae t
+              ÿ = ! 2 y                                        y = A cos(!t + )
+     ÿ + ẏ + !02 y = 0                                        y = Ae   t/2
+                                                                               cos(!t + )
+                        p
+In the last equation ! = !02   2 /4, and we assume 2! > | | (underdamped).
+                                                        0
+Other useful techniques: Separation of variables, and the use of the “integrating factor”.
+
+Vectors
+A vector a is defined by its components as
+
+     a = (ax , ay , az ) = ax î + ay ĵ + az k̂.
+
+The modulus (length) of a is
+               q                 p
+     |a|(⌘ a) = a2x + a2y + a2z = a · a.
+
+Scalar product
+
+     a · b = ax bx + ay by + az bz = |a||b| cos ✓.
+
+Vector product
+
+                                                                     î ĵ k̂
+     a ⇥ b = (ay bz       az by , az bx   ax bz , ax by   ay bx ) = ax ay az = ab sin ✓n̂.
+                                                                    bx by bz
+
+The vectors a, b and the unit vector n̂ form a right-handed set.
+
+Scalar Triple Product
+
+                                               ax ay az
+     a · (b ⇥ c) = b · (c ⇥ a) = c · (a ⇥ b) = bx by bz .
+                                               cx cy cz
+
+Vector Triple Product
+
+     a ⇥ (b ⇥ c) = b(a · c)          c(a · b).
+Coordinate systems
+Vector coordinates: The position vector is usually called r,
+
+     r ⌘ xî + y ĵ + z k̂.
+
+The radial distance from the origin is then
+         p
+     r = x2 + y 2 + z 2 .
+
+The direction of r is given by the unit vector r̂ = r/r.
+
+Plane polar coordinates (in 2D) (r, ) or (r, ✓)
+
+          p
+     r = x2 + y 2 ,   = arctan(y/x);
+     x = r cos , y = r sin ;
+     r̂ = r/r, ˆ = ( sin , cos );
+     grad = r̂@r + ˆ @ ,
+     dA = rdrd     (Area element)
+
+Cylindrical polar coordinates (⇢, , z)
+For ⇢ and read the 2D plane polar coordinates above.
+
+     ˆ = (cos , sin , 0), ˆ = ( sin , cos , 0);
+     ⇢
+     grad = ⇢ˆ @⇢ + ˆ @ + k̂@z ,
+     dV = ⇢d⇢d dz         (Volume element)
+
+Note: One often meets r instead of ⇢. Avoid this to reduce confusion.
+
+Spherical coordinates (r, ✓, )
+         p                                             p
+    r = x2 + y 2 + z 2 ,  = arctan(y/x), ✓ = arctan( x2 + y 2 /z);
+    x = r cos sin ✓, y = r sin sin ✓, z = r cos ✓;
+    r̂ = r/r, ˆ = ( sin , cos , 0), ✓ ˆ = (cos cos ✓, sin cos ✓, sin ✓);
+                         ˆ ✓,
+     grad = r̂@r + ˆ @ + ✓@
+     dV = r2 sin ✓drd d✓ = r2 drd d cos ✓       (Volume element)
+Vector Calculus
+                      ✓                ◆
+                         @f @f @f
+     grad f = rf =           ,    ,
+                         @x @y @z
+                        @ x @ y @ z
+     div = r · =              +      +
+                         @x       @y     @z
+                           ✓              ◆      ✓            ◆      ✓           ◆
+                             @ z @ x               @ x @ y             @ y @ z
+     curl = r ⇥ =                           î +                ĵ +               k̂,
+                               @x     @z            @y    @x            @z    @y
+            @ 2f   @ 2f     @ 2f
+     r2 f =      +        +
+            @x2    @y 2      @z 2
+                  ✓         ◆                 ✓         ◆
+             1 @      2 @            1    @          @           1     @2
+          = 2       r     f + 2                 sin ✓ f + 2 2              f,
+            r @r       @r         r sin ✓ @✓         @✓      r sin ✓ @ 2
+     div grad f = r2 f,
+     curl grad f = 0,
+     div curl = 0,
+     curl curl = grad(div ) r2 .
+
+Stokes theorem:
+     Z                  I
+       (curl F ) · dS =         F · dr,
+       S                    S
+
+( S is the curve bounding the surface S.)
+
+Divergence theorem
+     Z            Z
+       div F dV =   F · dS,
+       V              S
+
+(S is the surface of the volume V )
+
